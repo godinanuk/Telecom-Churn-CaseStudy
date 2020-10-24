@@ -13,6 +13,5 @@ In terms of run time taken by different algorithms:
 3. BaggingClassifier was the most expensive one which took more than 45 minutes. Results of BaggingClassifier was good with 81% of test recall ratio.
 4. SGD Classifier and Stacking Classifier took in a range of 3 to 5 minutes, and both classifier's results were good with recall ratio's of 81% and 79% respectively.
 
-
-
+Please note results will be different for different datasets and also depends based on feature engineering and feature selection.
 
