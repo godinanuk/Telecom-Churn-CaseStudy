@@ -5,3 +5,11 @@ This program will give you a glimpse of different algorithms / models, we can us
 
 Note: As the dataset file is larger than allowed sizes, I could not add full dataset.  I have uploaded a shorter version.
 
+For telecom churn problem recall ratio is very important as we do not want to miss out any customer who is about to churn.
+
+In terms of run time taken by different algorithms:
+1. Logistic Regression and Decision Trees took less than a second.  Logistic Regression results were good, but Decision trees overfitted.
+2. MLP Classifier, AdaBoost Classifier, Ridge Classifier, LinearDiscriminantClassifier, Neural Networks, QuadraticDiscriminantAnalysis, Light GBM took less than a minute.  Results of MLP Classifier, AdaBoost Classifier, Ridge Classifier, LinearDiscriminantClassifier were good with good test recall ratios ranging between 76% to 82%.  Ridge Classifier tops with 82% test recall ratio.
+3. BaggingClassifier was the most expensive one which took more than 45 minutes. Results of BaggingClassifier was good with 81% of test recall ratio.
+
+
